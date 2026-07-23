@@ -54,7 +54,7 @@ section {
 }
 
 
-#entete button {
+#entete a {
     margin-left: 17rem;
     font-weight: bold;
     background-color: #86f872;
@@ -72,6 +72,10 @@ section {
     margin-bottom: 0.5rem;
     margin-top: 2rem;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+     text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    
 }
 
 #entete button:hover {
@@ -651,11 +655,11 @@ article div:nth-of-type(3) {
 
     
     #rail {
-        top: 45rem;
+        top: 47.5rem;
            }
 
     #plaque_rail {
-       top: 45.5rem;
+       top: 48rem;
        left: 5.5rem;
     }
     
