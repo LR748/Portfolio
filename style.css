@@ -714,3 +714,9 @@ article div:nth-of-type(3) {
         transition: transform 0.3s ease;
     }
 }
+
+@media (max-width: 424px){
+#projets{
+    margin-top: 0.8rem;
+}
+}
