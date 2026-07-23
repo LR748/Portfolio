@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="flex">
+        <section id="entete">
+            <div id="moi">
+                <img src="public/moi-removebg-preview.png" alt="">
+                <h3> >DEVELOPPEUR FULL_STACK REACT/NODE.JS< </h3>
+                        <p>10 ans d'expertise opérationnelle et de troubleshooting, transposés dans l'ingénierie
+                            logicielle</p>
+            </div>
+            <div class="flex">
+                <button>TELECHARGER LE CV</button>
+            </div>
+        </section>
+        <div class="separation"></div>
+        <section id="projets" class="flex">
+            <div id="plaque_rail" class="flex">
+
+                <h2>PROJETS</h2>
+
+            </div>
+            <div id="rail"></div>
+            <article class="maquette">
+                <div><img src="public/projet_maquette_warhammer.png" alt=""></div>
+                <div>
+                    <h5> MAQUETTE SITE WARHAMMER</h5>
+                    <p>Maquette, reproduction d'un site web, projet purement Front-End, exercice d'infrastructure HTML5
+                        et d'intégration du style en CSS3 vanilla. </p>
+                </div>
+                <div class="flex">
+                    <a href="https://maquette-warhammer.vercel.app/" target="_blank" rel="noopener noreferrer" class="neon">
+                    LIVE DEMO
+                    </a>
+                    <a href="https://github.com/LR748/maquette-warhammer.git" target="_blank" rel="noopener noreferrer" class="btn-portfolio">
+                        GITHUB CODE
+                    </a>>
+                </div>
+            </article>
+
+            <article class="kanban">
+            <div><img src="public/KANBAN.png" alt=""></div>
+                <div>
+                    <h5>KANBAN REGULATEUR DE PROJETS</h5>
+                    <p>Application de gestion des tâches dynamique avec calcul de charge géométrique et persistance des
+                        données via le LocalStorage</p>
+                </div>
+                <div class="flex">
+                    <a href="https://kanban-lake-mu.vercel.app/" target="_blank" rel="noopener noreferrer" class="neon">
+                        LIVE DEMO
+                    </a>
+                    <a href="https://github.com/LR748/Kanban.git" target="_blank" rel="noopener noreferrer">
+                        GITHUB CODE
+                    </a>
+                </div>
+            </article>
+
+        </section>
+    </header>
+    <div class="separation2"></div>
+    <img id="center" src="public/center2.png" alt="">
+    <main class="flex">
+        <section id="info">
+            <div class="panel-info">
+                <h3 class="mono"> >STATUT OPERATIONNEL< </h3>
+                        <p>Après 10 ans passés à piloter la performance de réseaux de points de vente et à diagnostiquer
+                            des pannes techniques complexes, j'ai choisi de transposer cette rigueur analytique vers le
+                            développement logiciel.
+                            Mon approche repose sur une double culture : l'efficacité opérationnelle acquise sur le
+                            terrain et la maîtrise technique de l'écosystème JavaScript moderne. Axé sur la stack
+                            Full-Stack (JavaScript, Node.js, Express, React, SQL), je conçois des applications
+                            structurées, performantes et centrées sur la résolution de problématiques métiers claires.
+                            Actuellement en formation intensive pour l'obtention du Titre Professionnel Développeur Web
+                            et Web Mobile (Bac+2), je suis activement à la recherche d'un stage de 2 mois (de septembre
+                            à novembre 2026) dans la région toulonnaise pour intégrer une équipe technique et apporter
+                            une valeur opérationnelle immédiate.
+                            Stack technique : JavaScript (ES6+), Node.js, Express, React, PostgreSQL, MySQL, Git/GitHub,
+                            LocalStorage.</p>
+            </div>
+        </section>
+        <div class="separation"></div>
+        <section id="contact" class="flex">
+            <div id="logos">
+                <img class="stack" src="stack-removebg-preview.png" alt="">
+                <img class="logo" src="public/logos_portfolio-removebg-preview.png" alt="">
+            </div>
+            <div class="chat-form-container">
+                <h3>CONTACT</h3>
+                <form action="https://formspree.io/f/mojgngep" method="POST" class="chat-form">
+
+                    <div class="form-group">
+
+                        <input type="text" id="contact-name" name="name" required placeholder="Votre nom">
+                    </div>
+
+                    <div class="form-group">
+
+                        <input type="email" id="contact-email" name="email" required placeholder="nom@exemple.com">
+                    </div>
+
+                    <div class="form-group">
+
+
+                        <textarea id="contact-message" name="message" required rows="4"
+                            placeholder="Votre message..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Envoyer</button>
+
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
