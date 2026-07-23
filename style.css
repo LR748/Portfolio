@@ -7,7 +7,7 @@
 body {
     position: relative;
     min-height: 100vh;
-    background-image: url(public/fond_portfolio.png);
+    background-image: url(media/fond_portfolio.png);
     background-size: cover;
     margin: 0;
     /* border: 5px solid; */
@@ -95,13 +95,13 @@ section {
 }
 
 .separation {
-    background-image: url(public/separator3.png);
+    background-image: url(media/separator3.png);
     width: 1.5rem;
     background-size: 100% 100%;
 }
 
 .separation2 {
-    background-image: url(public/separator4.png);
+    background-image: url(media/separator4.png);
     height: 2.3rem;
 }
 
@@ -147,7 +147,7 @@ section {
 
 #rail {
     position: absolute;
-    background-image: url(public/rail.png);
+    background-image: url(media/rail.png);
     background-size: 100% 100%;
     height: 2rem;
     width: 42.25rem;
@@ -158,7 +158,7 @@ section {
 #plaque_rail {
     position: absolute;
     z-index: 2;
-    background-image: url(public/plaque_rail.png);
+    background-image: url(media/plaque_rail.png);
     background-size: 100% 100%;
     height: 5rem;
     width: 15rem;
@@ -191,7 +191,7 @@ article img {
 }
 
 article {
-    background-image: url(public/carte_projet.png);
+    background-image: url(media/carte_projet.png);
     background-size: 100% 100%;
     width: 21rem;
     height: 31rem;
@@ -279,7 +279,7 @@ article div:nth-of-type(3) {
 
 
 #info {
-    background-image: url(public/fond_matrix3.jpg.png);
+    background-image: url(media/fond_matrix3.jpg.png);
     background-size: 100% 100%;
     height: 23rem;
 }
@@ -580,7 +580,7 @@ article div:nth-of-type(3) {
     }
 
     .separation{
-      background-image: url(public/separator4.png);
+      background-image: url(media/separator4.png);
     height: 2.3rem;
     width: 100%;
     }
@@ -688,7 +688,7 @@ article div:nth-of-type(3) {
     }
 
     .separation {
-        background-image: url(public/separator4.png);
+        background-image: url(media/separator4.png);
         background-size: contain;
         background-position: center;
         height: 2.3rem;
